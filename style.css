@@ -1,156 +1,155 @@
-h1{
-    font-size: 30px;
-    padding: 18px 30px;
-    color: #fff;
-    background-color: #4aaaa5;
-    display: inline-block;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+h1 {
+  font-size: 30px;
+  padding: 18px 30px;
+  color: #fff;
+  background-color: #4aaaa5;
+  display: inline-block;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-ul{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-li{
-    font: inherit;
-    vertical-align: baseline;
-    padding: 20px 30px;
-    display: inline-block;
-    text-align: center;
-    font-size: 15px;
-    padding: 20px 30px;
+li {
+  font: inherit;
+  vertical-align: baseline;
+  padding: 20px 30px;
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px 30px;
 }
-li a:hover{
-    background-color: blue;
+li a:hover {
+  background-color: blue;
 }
-li a:focus{
-    background-color: tomato;
+li a:focus {
+  background-color: tomato;
 }
-li a:active{
-    background-color: black;
+li a:active {
+  background-color: black;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("./images/webb-dark.png");
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./images/webb-dark.png");
 }
 
 footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-    background-color: #212529;
-    border-top: 2px;
-	color: white;
-	text-align: center;
-	text-shadow: ivory;
-    text-size-adjust: 15px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #212529;
+  border-top: 2px;
+  color: white;
+  text-align: center;
+  text-shadow: ivory;
+  text-size-adjust: 15px;
 }
-.project{
-margin: 50px;
+.project {
+  margin: 50px;
 }
-p{
-    line-height: 25px;
-    margin: 25px;
-    height: 250px;
+p {
+  line-height: 25px;
+  margin: 25px;
+  height: 250px;
 }
-h2{
-    color: #4aaaa5;
-    font-size: 25px;
-    margin: 25px;
-    border-bottom: #cccccc solid 2px;
-    padding-bottom: 25px;
+h2 {
+  color: #4aaaa5;
+  font-size: 25px;
+  margin: 25px;
+  border-bottom: #cccccc solid 2px;
+  padding-bottom: 25px;
 }
-h3{
-    color: #4aaaa5;
-    font-size: 25px;
-    margin: 25px;
-    border-bottom: #cccccc solid 2px;
-    padding-bottom: 25px;
+h3 {
+  color: #4aaaa5;
+  font-size: 25px;
+  margin: 25px;
+  border-bottom: #cccccc solid 2px;
+  padding-bottom: 25px;
 }
 .card-text {
-    display: inline-block !important;
+  display: inline-block !important;
 }
 #projects:hover {
-	transform: scale(1.1);
-	transition: 400ms;
+  transform: scale(1.1);
+  transition: 400ms;
 }
 canvas {
-    width:100% !important;
-    height: auto !important;
+  width: 100% !important;
+  height: auto !important;
 }
 .icon-bar {
-    position: fixed;
-    /* bottom: 0;
+  position: fixed;
+  /* bottom: 0;
     left: 0;
     right: 0;
     padding: 0;
     margin: 0 auto; */
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    text-align: center;
-  }
-  
-  /* Style the icon bar links */
-  .icon-bar a {
-    display: block;
-    text-align: center;
-    margin: 0;
-    padding: 20px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 25px;
-  }
-  
-  /* Style the social media icons with color, if you want */
-  .icon-bar a:hover {
-    background-color: #000;
-  }
-  
-  .facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  .cell {
-    background: green;
-    color: white;
-  }
-  
-  .google {
-    background: #dd4b39;
-    color: white;
-  }
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
 
-  .resume {
-    background: blue;
-    color: white;
-  }
-  
-  .linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  
-  .github {
-    background: #333;
-    color: white;
-  }
-  .bg-white {
-    margin-top: 50px;
-  }
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 25px;
+}
 
-  .card-img {
-    border-radius: 250px;
-    padding: 30px;
-  }
- 
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.cell {
+  background: green;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.resume {
+  background: blue;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.github {
+  background: #333;
+  color: white;
+}
+.bg-white {
+  margin-top: 50px;
+}
+
+.card-img {
+  border-radius: 250px;
+  padding: 30px;
+}
